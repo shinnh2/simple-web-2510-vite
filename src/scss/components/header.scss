@@ -1,0 +1,29 @@
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 56px;
+
+    .logo{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    nav{
+        margin-left: auto;
+    }
+    .toggle-button-wrap{
+        margin-left: 32px;
+    }
+}
+
+/* nav */
+nav{
+    .menu-list{
+        display:flex;
+    }
+    .menu-list-item{
+        margin: 0 8px;
+    }    
+} 

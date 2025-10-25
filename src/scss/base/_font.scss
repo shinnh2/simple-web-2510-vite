@@ -1,0 +1,29 @@
+/* font */
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal; /* See note below */
+	font-weight: 300;
+	src: url(/src/assets/fonts/RobotoCondensed-Light.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal; /* See note below */
+	font-weight: 400;
+	src: url(/src/assets/fonts/RobotoCondensed-Regular.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal; /* See note below */
+	font-weight: 500;
+	src: url(/src/assets/fonts/RobotoCondensed-Medium.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal; /* See note below */
+	font-weight: 600;
+	src: url(/src/assets/fonts/RobotoCondensed-SemiBold.ttf) format("truetype");
+	font-display: swap;
+}

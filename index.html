@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SIMPLE WEB</title>
+</head>
+
+<body>
+    <div id="wrap">
+        {{> header}}
+
+        <main>
+            <section>
+                <div class="inner">
+                    <h2>Catalog</h2>
+                    <ul class="contents-list">
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-01.png"
+                                        alt="Strawberry"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Strawberry</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-02.png"
+                                        alt="Orange"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Orange</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-03.png"
+                                        alt="Apple"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Apple</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-04.png"
+                                        alt="Lemon"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Lemon</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-05.png"
+                                        alt="Avocado"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Avocado</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="contents-list-item">
+                            <a href="#;" title="클릭시 해당 콘텐츠로 이동합니다.">
+                                <div class="contents-list-item__img-box"><img src="/src/assets/images/img-list-06.png"
+                                        alt="Grape"></div>
+                                <div class="contents-list-item__content-box">
+                                    <h3 class="contents-list-item__content-name">Grape</h3>
+                                    <p class="contents-list-item__content-desc">Lorem Ipsum is simply dummy text of
+                                        the
+                                        printing and typesetting industry.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="inner">
+                    <h2>Contact us</h2>
+                    <article class="send-email-box">
+                        <div class="input-wrap">
+                            <label for="useremail">Email</label>
+                            <input type="text" id="useremail" name="useremail" />
+                        </div>
+                        <button class="button-send-email">send</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        {{> footer}}
+    </div>
+
+    <!-- js -->
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>

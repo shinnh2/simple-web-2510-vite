@@ -1,0 +1,27 @@
+//contact us
+.send-email-box{
+    display: flex;
+    align-items: flex-end;
+}
+.input-wrap{
+    & + button{
+        margin-left: 16px;
+    }
+    label{
+        display: block;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    input{
+        width: 280px;
+        height: 48px;
+        padding: 0 16px;
+        border: 1px solid var(--primary-color);
+        background-color: var(--primary-container-color);
+        border-radius: 32px;
+    }
+    input:focus{
+        outline: none;
+        border:1px solid #000;
+    }    
+}
