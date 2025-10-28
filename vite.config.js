@@ -16,7 +16,7 @@ export default defineConfig({
 			"@assets": resolve(__dirname, "src/assets"),
 		},
 	},
-	server: { port: 3000 },
+	server: { port: 3100 }, //port 번호 별도 설정. 필수 아님
 	build: {
 		outDir: "dist",
 		emptyOutDir: true,
